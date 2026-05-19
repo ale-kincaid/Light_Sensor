@@ -1,16 +1,12 @@
 #MicroXplorer Configuration settings - do not modify
 ADC1.Channel-0\#ChannelRegularConversion=ADC_CHANNEL_TEMPSENSOR
-ADC1.Channel-2\#ChannelRegularConversion=ADC_CHANNEL_VREFINT
 ADC1.CommonPathInternal=ADC_CHANNEL_VREFINT|ADC_CHANNEL_TEMPSENSOR|null|null
-ADC1.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,OffsetNumber-0\#ChannelRegularConversion,NbrOfConversionFlag,master,NbrOfConversion,Rank-2\#ChannelRegularConversion,Channel-2\#ChannelRegularConversion,SamplingTime-2\#ChannelRegularConversion,OffsetNumber-2\#ChannelRegularConversion,CommonPathInternal
-ADC1.NbrOfConversion=2
+ADC1.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,OffsetNumber-0\#ChannelRegularConversion,NbrOfConversionFlag,master,NbrOfConversion,CommonPathInternal
+ADC1.NbrOfConversion=1
 ADC1.NbrOfConversionFlag=1
 ADC1.OffsetNumber-0\#ChannelRegularConversion=ADC_OFFSET_NONE
-ADC1.OffsetNumber-2\#ChannelRegularConversion=ADC_OFFSET_NONE
 ADC1.Rank-0\#ChannelRegularConversion=1
-ADC1.Rank-2\#ChannelRegularConversion=2
 ADC1.SamplingTime-0\#ChannelRegularConversion=ADC_SAMPLETIME_640CYCLES_5
-ADC1.SamplingTime-2\#ChannelRegularConversion=ADC_SAMPLETIME_640CYCLES_5
 ADC1.master=1
 CAD.formats=
 CAD.pinconfig=
