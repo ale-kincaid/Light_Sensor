@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [ 
+    {
+      "name": "Debug STM32",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "stlink",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/Light_Sensor.elf",
+      "device": "STM32L432KC",
+      "interface": "swd",
+      "runToEntryPoint": "main",
+      "preLaunchTask": "Build STM32",
+      "serverpath": "/opt/ST/STM32CubeCLT_1.21.0/STLink-gdb-server/bin/ST-LINK_gdbserver",
+      "armToolchainPath": "/opt/ST/STM32CubeCLT_1.21.0/GNU-tools-for-STM32/bin"
+    }
+  ]
+}
