@@ -20,7 +20,7 @@ extern TIM_HandleTypeDef htim2;
  *
  * Therefore, 1 timer tick = 1 microsecond.
  */
-#define TSL237_TIMER_CLOCK_HZ      537600UL
+#define TSL237_TIMER_CLOCK_HZ      50000UL
 
 /*
  * Number of valid periods to average.
